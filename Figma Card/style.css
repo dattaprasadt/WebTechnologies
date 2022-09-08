@@ -1,0 +1,183 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.grandparent{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.parent{
+    height: 202px;
+    width: 618px;
+    margin-top: 250px;
+    border:1px solid #edebd9;
+    background: #ffffff;
+    border-top:  2px solid #0078d7;
+    position: relative;
+}
+
+.child1{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 580px;
+    height: 24px;
+    background-color: #ffffff;
+   
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.child1 .logo img{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin: 16px 576px 168px 16px;
+    border-radius: 3px;
+}
+
+.child1 .name{
+    position: absolute;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 18px 523px 170px 44px;
+    margin-bottom: 18px;
+}
+
+.child1 .dots{
+    justify-content: flex-end;
+    margin: 16px 16px 172px 580px;
+    position: absolute;
+   font-size: 20px;
+   font-family: 'Times New Roman';
+   font-weight: 400;
+   line-height: 16px;
+   color: #484644;
+   cursor: pointer;
+
+
+color: #484644;
+}
+
+.child2{
+    position: absolute;
+    width: 580px;
+    height: 24px;
+    background-color: #ffffff;
+    margin: 52px 16px 128px 16px;
+}
+
+.child2 .p1{
+    position: relative;
+    font-weight: 700;
+    font-style: normal;
+    font-family:'Segoe UI';
+    font-size: 18px;
+    line-height: 24px;
+    color: #252423;
+}
+
+.child2 .p2{
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    font-family:'Segoe UI';
+    font-size: 12px;
+    line-height: 16px;
+    color: #484644;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.child3{
+    position: absolute;
+    width: 580px;
+    height: 24px;
+    background-color: #ffffff;
+    margin: 100px 16px 64px 16px;
+}
+
+.child3 .p3{
+    position: relative;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #484644;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.child4{
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.child4 .btn{
+    width: 96px;
+    height: 32px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: 1px solid #d1d1d1;
+    box-shadow: 0 0 2px #d1d1d1;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+.child4 #btn1{
+    position: absolute;
+    
+    margin: 156px 500px 16px 16px;
+    
+}
+
+.child4 #btn2{
+    position: absolute;
+   
+    margin: 156px 396px 16px 120px;
+   
+}
+
+.child4 #btn3{
+    position: absolute;
+   
+    margin: 156px 292px 16px 224px;
+   
+}
+
+.child4 #btn4{
+    position: absolute;
+
+    margin: 156px 88px 16px 328px;
+    
+}
