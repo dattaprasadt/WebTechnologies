@@ -1,0 +1,255 @@
+
+.mainContainer{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-top: 600px;
+    position: absolute;
+    background: #ffffff;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    height: 497px;
+    width: 343px;
+}
+
+.element1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.element1 img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 12px 311px 465px 12px;
+}
+
+.element1 p{
+    
+    position: absolute;
+    width: 71px;
+    height: 16px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #252423;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 14px 232px 467px 40px;
+}
+
+.element1 .dots{
+    justify-content: flex-end;
+    margin: 8px 12px 473px 315px;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    font-weight: 600;
+    line-height: 16px;
+    color: #484644;
+    cursor: pointer;
+}
+
+
+.element2{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.element2 img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 48px 291px 409px 12px;
+}
+
+.p1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 100%;
+    
+}
+
+.p2{
+    position: absolute;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #212121;
+    margin: 48px 84px 427px 64px;
+}
+
+.p3{
+    margin: 70px 84px 411px 64px;
+    position: absolute;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #6E6E6E;
+
+}
+
+.element3{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 179px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+.element3 img{
+    position: absolute;
+    width: 319px;
+    height: 179px;
+    border-radius: 4px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 98px 12px 220px 12px;
+}
+
+.element4{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.element4 p {
+    position: absolute;
+    width: 319px;
+    height: 140px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    color: #212121;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 289px 12px 68px 12px;
+}
+
+.element5{
+    height: 44px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttn{
+    width: 52px;
+  height: 24px;
+  background: #ffffff;
+  border: 1px solid #5B5FC7;
+  border-radius: 3px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.078px;
+    color: #5B5FC7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+#buttn1{
+    position: absolute;
+    margin: 430px 281px 33px 12px;
+}
+#buttn2{
+    position: absolute;
+    margin: 430px 221px 33px 72px;
+}
+#buttn3{
+    position: relative;
+    margin: 430px 160px 33px 132px;
+   
+}
+
+.element{
+    height: 44px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+}
