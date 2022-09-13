@@ -1,6 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import { createUseStyles, ThemeProvider, useTheme } from "react-jss";
+import ThumbnailCard from "./Components/ThumbnailCard";
 
 const useStyles = createUseStyles({
 
@@ -166,7 +167,8 @@ const theme = {
 
 const App = () => (
   <ThemeProvider theme={theme}>
-    <Comp />
+    {/* <Comp /> */}
+    <ThumbnailCard />
   </ThemeProvider>
 );
 
